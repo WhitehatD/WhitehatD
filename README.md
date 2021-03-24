@@ -15,8 +15,8 @@ Do you want to get in touch with me? My *Discord* is **WhitehatD#6615**. Feel fr
 
 
 <a href="https://github.com/whitehatd">
-  <img align="center" width="400" height="150" src="https://github-readme-stats.vercel.app/api?username=whitehatd&show_icons=true&theme=react" />
+  <img align="center" width="400" height="150" src="https://github-readme-stats.vercel.app/api?username=whitehatd&show_icons=true&theme=react&count_private=true&include_all_commits=true&custom_title=My GitHub Stats" />
 </a>
 <a href="https://github.com/whitehatd">
-  <img align="center" width="400" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitehatd&theme=react" />
+  <img align="center" width="400" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitehatd&theme=react&include_all_commits=true" />
 </a>
