@@ -3,7 +3,7 @@
 
 ### About me
 Hey! My name is **Alex (a.k.a WhitehatD)**. I am a ***Java/Kotlin/C++*** Developer and Software Engineer. \
-I am a high school student, currently learning *IT and Maths*.
+I am currently studying *Computer Science* at Maastricht University.
 
 
 ### Known languages / APIs
