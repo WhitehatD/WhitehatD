@@ -1,22 +1,42 @@
-## Hello everyone 👋
+## Hello everyone! 👋
 
+### 🌟 About Me
+Hey there! I'm **Alex (a.k.a WhitehatD)**, a passionate **Java/Kotlin/C++ Developer** and Software Engineer. Currently, I'm pursuing **Computer Science** at Maastricht University, focusing on developing robust and scalable software solutions.
 
-### About me
-Hey! My name is **Alex (a.k.a WhitehatD)**. I am a ***Java/Kotlin/C++*** Developer and Software Engineer. \
-I am currently studying *Computer Science* at Maastricht University.
+### 🛠️ Tech Stack
+- **Programming Languages:** Java, Kotlin, C++, C#, Python
+- **Backend Development:** Bukkit/Spigot/BungeeCord APIs (since 2017), Spring Boot
+- **Databases:** SQL, MongoDB, Redis
+- **Version Control:** Git, GitHub, GitLab
+- **Other Skills:** Data Structures & Algorithms, Multi-threading, Networking
 
+### 🚀 GitHub Stats
+📈 **Activity Overview**
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=whitehatd&theme=react-dark&hide_border=true" />
+</p>
 
-### Known languages / APIs
-I am fluent in ***Java and Kotlin*** and I also know ***C++***. I have been working with **Bukkit/Spigot/BungeeCord APIs** since *2017*.\
-I have experience with ***SQL/MongoDB/Redis*** as well.
+🎨 **Code Language Breakdown**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitehatd&theme=radical&layout=compact&langs_count=8&hide=html,css" />
+</p>
 
-### Contact information
-Do you want to get in touch with me? My *Discord* is **WhitehatD#6615**. Feel free to add me for any question or request.
+🔥 **Contribution Streak**
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=whitehatd&theme=radical&hide_border=true" />
+</p>
 
+🏆 **GitHub Achievements**
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=whitehatd&theme=juicyfresh&margin-w=15&no-bg=true" />
+</p>
 
-<a href="https://github.com/whitehatd">
-  <img align="center" width="400" height="150" src="https://github-readme-stats.vercel.app/api?username=whitehatd&show_icons=true&theme=react&count_private=true&include_all_commits=true&custom_title=My GitHub Stats" />
-</a>
-<a href="https://github.com/whitehatd">
-  <img align="center" width="400" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitehatd&theme=react&include_all_commits=true" />
-</a>
+### 📫 Contact Me
+- **Discord:** `WhitehatD`  *(Feel free to add me!)*
+- **GitHub:** [WhitehatD](https://github.com/whitehatd)
+
+### 🚀 Fun Fact
+- I'm always working on exciting projects, whether it's a Minecraft plugin, a backend system, or something completely new!
+
+---
+💻 *"Code, create, and conquer!"*
