@@ -47,7 +47,6 @@ Currently, I am:
 
 ### 📨 Connect with Me
 - **Discord:** `WhitehatD` – open to conversations, collaborations, or just anything related to tech :)
-- **GitHub:** [@WhitehatD](https://github.com/whitehatd)
 
 ---
 
@@ -55,3 +54,5 @@ Currently, I am:
 > *“In code as in life, elegance lies not in complexity, but in clarity.”*
 
 Thank you for visiting — I invite you to explore, inquire, and perhaps, collaborate.
+
+- ![@WhitehatD](https://komarev.com/ghpvc/?username=WhitehatD&color=green)
