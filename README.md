@@ -13,8 +13,8 @@ Currently, I am:
 ---
 
 ### 🧰 Technical Proficiencies
-- **Languages:** Java, Kotlin, C++, Python, C#, JavaScript/TypeScript  
-- **Frameworks & APIs:** Spring Boot, Bukkit/Spigot/BungeeCord, Node.js  
+- **Languages:** Java, Kotlin, C++, Python, C#, JavaScript/TypeScript, Rust (currently learning!)
+- **Frameworks & APIs:** Spring Boot, Bukkit/Spigot/BungeeCord, Node.js, React  
 - **Blockchain:** Solana RPC, Raydium AMM SDK, pump.fun ecosystem  
 - **Databases:** AnySQL, Redis, MongoDB  
 - **Tools & Practices:** Git, Docker, Kubernetes, REST/gRPC, concurrency, system design, low-latency architecture  
