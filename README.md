@@ -1,143 +1,53 @@
-# 👋 Hi, I’m Alex (WhitehatD)
+# Alexandru Cioc (WhitehatD)
 
-Systems-focused software engineer building **high-leverage, production-grade systems**.
+I build systems that build systems.
 
-I don’t just write code — I design **execution systems** that turn ideas into shipped features rapidly, reliably, and at scale.
-
----
-
-## ⚡ What I Actually Do
-
-I operate at the intersection of:
-
-* **Backend engineering** (Java / Spring Boot, Node.js)
-* **Infrastructure & distributed systems** (Docker, Kubernetes, CI/CD)
-* **AI-assisted execution systems** (agentic workflows, automation loops)
-* **Low-latency + high-throughput systems**
-* **Blockchain internals** (Solana gRPC, EVM/Solidity)
-
-But more importantly:
-
-> I build systems that **build and improve systems**.
+21. Based in the Netherlands. Running two startups — both operated from my phone.
 
 ---
 
-## 🧠 Current Focus
+## What I'm Building
 
-I’m currently building **agent-assisted engineering pipelines** that:
+**[Leyoda](https://github.com/Leyoda-Software)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys. OAuth. Real users.
 
-* Take high-level intent → **production-ready code**
-* Automatically:
+**[MetricHost](https://github.com/Atlas-Studios-Server-Hosting)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, Kubernetes orchestration, Kafka event bus, Stripe billing, hibernation engine.
 
-  * analyze codebases
-  * implement changes
-  * run tests
-  * debug failures
-  * deploy to staging/production
-* Maintain **persistent project memory** (context recall, knowledge extraction, session tracking)
-* Enable **real-time iteration from anywhere (including mobile control)**
+Both run on a custom AI development infrastructure I built in 4 days. I write code, run tests, and deploy to production from my phone — no laptop needed. The system discovers any project automatically, enforces quality gates, self-corrects its own knowledge, and optimizes its own cost. I'm not ready to share how yet.
 
 ---
 
-## 🚀 How I Work
+## How I Work
 
-* I optimize for:
+I don't just write code. I build execution infrastructure that makes everything I do from that point forward faster, cheaper, and operable from anywhere.
 
-  * **iteration speed**
-  * **feedback loops**
-  * **system reliability**
-* I ship:
+- **Phone-first development** — I operate full production systems from an iPhone through infrastructure I designed for mobile-first AI-assisted development
+- **Self-healing automation** — deterministic hooks enforce safety at zero cost, memory self-corrects against source files, context survives compaction
+- **AI agent infrastructure** — not using AI tools in default mode. Building the layer underneath them
 
-  * **real systems**, not demos
-* I treat development as:
-
-  * a **pipeline problem**, not a typing problem
+The result: park bench, phone, full project context loaded in under a minute, AI writes and tests code, I approve from a push notification, ships to production.
 
 ---
 
-## 🧩 Technical Snapshot
+## Technical Range
 
-**Languages**
-Java, Kotlin, C++, Python, TypeScript, Solidity, C#, Rust (learning)
+**Languages** — Java, TypeScript, Python, Kotlin, C++, Rust, Solidity, C#
 
-**Backend / Systems**
-Spring Boot, Node.js, REST, gRPC, concurrency, distributed systems
+**Backend** — Spring Boot, Node.js, REST, gRPC, Kafka, WebSocket (STOMP/SSE)
 
-**Infrastructure**
-Docker, Kubernetes, Redis, PostgreSQL, MongoDB, MinIO
+**Infrastructure** — Docker, Kubernetes (k3s), Redis, PostgreSQL, MinIO, Nginx, blue-green deploys, CI/CD (GitHub Actions)
 
-**Blockchain**
-Solana (RPC + private gRPC), EVM/Solidity, ERC standards, NFTs
+**AI/Agents** — autonomous agent workflows, governance-as-config, self-maintaining skill systems, token optimization
 
-**Quality & Engineering**
-TDD, security-first design, adversarial testing, system-level thinking
+**Blockchain** — Solana (RPC + private gRPC), EVM/Solidity, ERC standards
 
 ---
 
-## 🧪 Selected Work (Public References)
+## Philosophy
 
-These are **real systems**, not simplified demos:
+Systems over effort. Iteration speed over raw output. Ship real things, not demos.
 
-* **MetricHost**
-  Distributed game hosting platform with orchestration, lifecycle management, and infra-level control
-  → *(see [repository](https://github.com/WhitehatD/MetricHost) for architecture details)*
-
-* **Leyoda (partial public components)**
-  AI-powered investor ↔ startup matching platform with production deployment, analytics, and real user flows
-  → *(see [repository](https://github.com/WhitehatD/leyoda-platform) for implementation details)*
-
-These repos reflect how I design:
-
-* system boundaries
-* infrastructure flows
-* production constraints
-* real-world tradeoffs
+Every project I touch gets production-grade infrastructure from day one — quality gates, security review, automated deployment, persistent memory. Not because I'm cautious, but because the infrastructure costs 20 minutes to set up and saves weeks over the project lifetime.
 
 ---
 
-## ⚙️ What Differentiates Me
-
-Most developers:
-
-> write code
-
-I:
-
-> design systems that **execute, validate, and improve code continuously**
-
-This includes:
-
-* automated CI/CD feedback loops
-* agent-driven implementation + debugging
-* structured memory layers for persistent context
-* high-speed iteration pipelines across multiple systems
-
----
-
-## 🧭 Current Projects
-
-* **Leyoda** — AI-powered investor ↔ startup matching platform
-* **MetricHost** — distributed game hosting platform
-* Internal tooling:
-
-  * agentic development pipelines
-  * memory systems (context + recall + consolidation)
-  * execution orchestration layers
-
----
-
-## 🎯 Philosophy
-
-* Clarity > cleverness
-* Systems > effort
-* Iteration speed > raw output
-* Real-world impact > theoretical perfection
-
----
-
-## 📫 Contact
-
-* Discord: **whitehatd**
-* Email: **[alexc.forbusiness@gmail.com](mailto:alexc.forbusiness@gmail.com)**
-
----
+*Something bigger is coming.*
