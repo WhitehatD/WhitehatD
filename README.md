@@ -1,4 +1,4 @@
-<h1 align="center">Alex Cioc</h1>
+<h1 align="center">Alexandru Cioc</h1>
 <p align="center"><strong>I build systems that build systems.</strong></p>
 <p align="center">21 · Netherlands · Running two startups — both operated from my phone.</p>
 
