@@ -56,13 +56,9 @@ The result: park bench, phone, full project context loaded in under a minute, AI
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WhitehatD&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=5d057a&icon_color=5d057a&text_color=c9d1d9&ring_color=5d057a" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=WhitehatD&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5d057a&fire=5d057a&currStreakLabel=5d057a&sideLabels=c9d1d9&dates=555555" width="49%" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WhitehatD&theme=github-dark&hide_border=true&bg_color=0d1117&color=5d057a&line=5d057a&point=ffffff&area=true&area_color=5d057a30" width="98%" />
 </p>
+
 
 ---
 
