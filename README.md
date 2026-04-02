@@ -1,8 +1,10 @@
-# Alexandru Cioc (WhitehatD)
+<h1 align="center">Alex Cioc</h1>
+<p align="center"><strong>I build systems that build systems.</strong></p>
+<p align="center">21 · Netherlands · Running two startups — both operated from my phone.</p>
 
-I build systems that build systems.
-
-21. Based in the Netherlands. Running two startups — both operated from my phone.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=WhitehatD&style=flat-square&color=5d057a&label=visitors" alt="visitors"/>
+</p>
 
 ---
 
@@ -28,17 +30,39 @@ The result: park bench, phone, full project context loaded in under a minute, AI
 
 ---
 
-## Technical Range
+## Tech Stack
 
-**Languages** — Java, TypeScript, Python, Kotlin, C++, Rust, Solidity, C#
+<p>
+  <img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-1.90-DEA584?style=for-the-badge&logo=rust&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
+</p>
 
-**Backend** — Spring Boot, Node.js, REST, gRPC, Kafka, WebSocket (STOMP/SSE)
+<p>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+</p>
 
-**Infrastructure** — Docker, Kubernetes (k3s), Redis, PostgreSQL, MinIO, Nginx, blue-green deploys, CI/CD (GitHub Actions)
+---
 
-**AI/Agents** — autonomous agent workflows, governance-as-config, self-maintaining skill systems, token optimization
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=WhitehatD&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=5d057a&icon_color=5d057a&text_color=c9d1d9&ring_color=5d057a" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=WhitehatD&theme=github-dark-blue&hide_border=true&background=0d1117&ring=5d057a&fire=5d057a&currStreakLabel=5d057a&sideLabels=c9d1d9&dates=555555" width="49%" />
+</p>
 
-**Blockchain** — Solana (RPC + private gRPC), EVM/Solidity, ERC standards
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WhitehatD&theme=github-dark&hide_border=true&bg_color=0d1117&color=5d057a&line=5d057a&point=ffffff&area=true&area_color=5d057a30" width="98%" />
+</p>
 
 ---
 
@@ -50,4 +74,4 @@ Every project I touch gets production-grade infrastructure from day one — qual
 
 ---
 
-*Something bigger is coming.*
+<p align="center"><em>Something bigger is coming.</em></p>
