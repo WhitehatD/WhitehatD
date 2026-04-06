@@ -10,11 +10,21 @@
 
 ## What I'm Building
 
+**[crag](https://github.com/WhitehatD/crag)** — One governance file compiled to CI, hooks, and 12 AI agent configs. Reads any codebase, writes a 20-line `governance.md`, compiles it to GitHub Actions, husky, pre-commit, Cursor, Copilot, Gemini, and 6 more. Zero dependencies. Deterministic — SHA-verified on every release. Stress-tested on 141 OSS repos (4,400 invocations, 0 crashes). 512 tests. This is the public piece of the infrastructure described below.
+
+<p>
+  <a href="https://www.npmjs.com/package/@whitehatd/crag"><img src="https://img.shields.io/npm/v/%40whitehatd%2Fcrag?color=%23e8bb3a&label=npm&logo=npm" /></a>
+  <a href="https://github.com/WhitehatD/crag/actions/workflows/test.yml"><img src="https://github.com/WhitehatD/crag/actions/workflows/test.yml/badge.svg" /></a>
+  <img src="https://img.shields.io/badge/tests-512%20passing-brightgreen" />
+  <img src="https://img.shields.io/badge/stress%20test-141%20repos%20%C2%B7%200%20crashes-brightgreen" />
+  <img src="https://img.shields.io/badge/dependencies-0-brightgreen" />
+</p>
+
 **[Leyoda](https://github.com/Leyoda-Software)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys. OAuth. Real users.
 
 **[MetricHost](https://github.com/Atlas-Studios-Server-Hosting)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, Kubernetes orchestration, Kafka event bus, Stripe billing, hibernation engine.
 
-Both run on a custom AI development infrastructure I built in 4 days. I write code, run tests, and deploy to production from my phone — no laptop needed. The system discovers any project automatically, enforces quality gates, self-corrects its own knowledge, and optimizes its own cost. I'm not ready to share how yet.
+All three run on a custom AI development infrastructure I built in 4 days. I write code, run tests, and deploy to production from my phone — no laptop needed. The system discovers any project automatically, enforces quality gates, self-corrects its own knowledge, and optimizes its own cost. [crag](https://github.com/WhitehatD/crag) is the open-source foundation — the rest isn't public yet.
 
 ---
 
@@ -24,7 +34,7 @@ I don't just write code. I build execution infrastructure that makes everything 
 
 - **Phone-first development** — I operate full production systems from an iPhone through infrastructure I designed for mobile-first AI-assisted development
 - **Self-healing automation** — deterministic hooks enforce safety at zero cost, memory self-corrects against source files, context survives compaction
-- **AI agent infrastructure** — not using AI tools in default mode. Building the layer underneath them
+- **AI agent infrastructure** — not using AI tools in default mode. Building the layer underneath them. [crag](https://github.com/WhitehatD/crag) is the first piece I've open-sourced
 
 The result: park bench, phone, full project context loaded in under a minute, AI writes and tests code, I approve from a push notification, ships to production.
 
@@ -58,7 +68,6 @@ The result: park bench, phone, full project context loaded in under a minute, AI
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WhitehatD&theme=github-dark&hide_border=true&bg_color=0d1117&color=5d057a&line=5d057a&point=ffffff&area=true&area_color=5d057a30" width="98%" />
 </p>
-
 
 ---
 
