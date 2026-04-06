@@ -10,7 +10,7 @@
 
 ## What I'm Building
 
-**[crag](https://github.com/WhitehatD/crag)** — One governance file compiled to CI, hooks, and 12 AI agent configs. Reads any codebase, writes a 20-line `governance.md`, compiles it to GitHub Actions, husky, pre-commit, Cursor, Copilot, Gemini, and 6 more. Zero dependencies. Deterministic — SHA-verified on every release. Stress-tested on 141 OSS repos (4,400 invocations, 0 crashes). 512 tests. This is the public piece of the infrastructure described below.
+**[crag](https://github.com/WhitehatD/crag)** — Run one command, get your CI, hooks, and AI coding configs synced automatically. Reads any codebase, writes a 20-line `governance.md`, compiles it to GitHub Actions, husky, pre-commit, Cursor, Copilot, Gemini, and 6 more. Zero dependencies. Deterministic — SHA-verified on every release. Stress-tested on 141 OSS repos. This is the public piece of the infrastructure described below.
 
 <p>
   <a href="https://www.npmjs.com/package/@whitehatd/crag"><img src="https://img.shields.io/npm/v/%40whitehatd%2Fcrag?color=%23e8bb3a&label=npm&logo=npm" /></a>
