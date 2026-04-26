@@ -20,9 +20,9 @@
   <img src="https://img.shields.io/badge/dependencies-0-brightgreen" />
 </p>
 
-**[Leyoda](https://github.com/Leyoda-Software)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys. OAuth. Real users.
+**[Leyoda](https://github.com/WhitehatD/leyoda-platform)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys. OAuth. Real users.
 
-**[MetricHost](https://github.com/Atlas-Studios-Server-Hosting)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, Kubernetes orchestration, Kafka event bus, Stripe billing, hibernation engine.
+**[MetricHost](https://github.com/WhitehatD/MetricHost)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, Kubernetes orchestration, Kafka event bus, Stripe billing, hibernation engine.
 
 All three run on a custom AI development infrastructure I built in 4 days. I write code, run tests, and deploy to production from my phone — no laptop needed. The system discovers any project automatically, enforces quality gates, self-corrects its own knowledge, and optimizes its own cost. [crag](https://github.com/WhitehatD/crag) is the open-source foundation — the rest isn't public yet.
 
