@@ -1,6 +1,7 @@
 <h1 align="center">Alexandru Cioc</h1>
 <p align="center"><strong>I build systems that build systems.</strong></p>
 <p align="center">21 · Netherlands · Running two startups — both operated from my phone.</p>
+<p align="center"><strong>Open to platform · infrastructure · backend · AI-engineering roles — remote, EU.</strong></p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=WhitehatD&style=flat-square&color=5d057a&label=visitors" alt="visitors"/>
@@ -20,9 +21,9 @@
   <img src="https://img.shields.io/badge/dependencies-0-brightgreen" />
 </p>
 
-**[Leyoda](https://github.com/WhitehatD/leyoda-platform)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys. OAuth. Real users.
+**[Leyoda](https://github.com/WhitehatD/leyoda-platform)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys, OAuth, production-grade CI/CD.
 
-**[MetricHost](https://github.com/WhitehatD/MetricHost)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, Kubernetes orchestration, Kafka event bus, Stripe billing, hibernation engine.
+**[MetricHost](https://github.com/WhitehatD/MetricHost)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, self-managed multi-region Kubernetes with a flannel→Cilium (eBPF) migration, Terraform + Ansible IaC, Kafka event bus, Stripe billing, hibernation engine.
 
 All three run on a custom AI development infrastructure I built in 4 days. I write code, run tests, and deploy to production from my phone — no laptop needed. The system discovers any project automatically, enforces quality gates, self-corrects its own knowledge, and optimizes its own cost. [crag](https://github.com/WhitehatD/crag) is the open-source foundation — the rest isn't public yet.
 
@@ -45,6 +46,7 @@ The result: park bench, phone, full project context loaded in under a minute, AI
 <p>
   <img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -55,7 +57,10 @@ The result: park bench, phone, full project context loaded in under a minute, AI
 
 <p>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cilium-eBPF-F8C517?style=for-the-badge&logo=cilium&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
   <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
