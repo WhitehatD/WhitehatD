@@ -1,5 +1,5 @@
 <h1 align="center">Alexandru Cioc</h1>
-<p align="center"><strong>I build systems that build systems.</strong></p>
+<p align="center"><strong>I build software with coding agents, and the guardrails that make it shippable.</strong></p>
 <p align="center"><strong>Open to platform · infrastructure · backend · AI-engineering roles — remote, EU.</strong></p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ## What I'm Building
 
-**[crag](https://github.com/WhitehatD/crag)** — Run one command, get your CI, hooks, and AI coding configs synced automatically. Reads any codebase, writes a 20-line `governance.md`, compiles it to GitHub Actions, husky, pre-commit, Cursor, Copilot, Gemini, and 6 more. Zero dependencies. Deterministic — SHA-verified on every release. Stress-tested on 141 OSS repos. This is the public piece of the infrastructure described below.
+**[crag](https://github.com/WhitehatD/crag)** — Governance for coding agents. One `governance.md` compiles into the instruction files Claude Code, Cursor, Codex, Gemini and other agents read, and into the CI gates they have to pass, so an agent can't call its work done until CI agrees. `crag audit` reports where a project's instructions have drifted from the code. Zero dependencies, deterministic, stress-tested on 141 open-source repos. The Rust version, with live checks and memory for agents, is in development.
 
 <p>
   <a href="https://www.npmjs.com/package/@whitehatd/crag"><img src="https://img.shields.io/npm/v/%40whitehatd%2Fcrag?color=%23e8bb3a&label=npm&logo=npm" /></a>
@@ -20,23 +20,21 @@
   <img src="https://img.shields.io/badge/dependencies-0-brightgreen" />
 </p>
 
-**[Leyoda](https://github.com/WhitehatD/leyoda-platform)** — AI-powered investor-startup matching platform. Spring Boot + Next.js + Python signal engine. Blue-green deploys, OAuth, production-grade CI/CD.
+**[Hesperus](https://github.com/WhitehatD/hesperus)** — My bachelor thesis, accepted at BNAIC/BeNeLearn 2026. You tell an agent in plain language what to watch; it plans when a low-power camera board should wake and take a photo, and a vision model checks each photo against the request. LangGraph agent, STM32 firmware, FastAPI backend, hybrid RAG over what it has seen.
 
-**[MetricHost](https://github.com/WhitehatD/MetricHost)** — Distributed game server hosting platform. 11 Spring Boot microservices, Next.js frontend, self-managed multi-region Kubernetes with a flannel→Cilium (eBPF) migration, Terraform + Ansible IaC, Kafka event bus, Stripe billing, hibernation engine.
+**[MetricHost](https://github.com/WhitehatD/MetricHost)** — Game-server hosting platform for a game studio, designed and built with a partner. More than ten Spring Boot microservices on multi-region Kubernetes (EU and US), Kafka between services, Stripe billing, Terraform and Ansible, Prometheus/Grafana/Loki.
 
-All three run on a custom AI development infrastructure I built in 4 days. I write code, run tests, and deploy to production from my phone — no laptop needed. The system discovers any project automatically, enforces quality gates, self-corrects its own knowledge, and optimizes its own cost. [crag](https://github.com/WhitehatD/crag) is the open-source foundation — the rest isn't public yet.
+**[Leyoda](https://github.com/WhitehatD/leyoda-platform)** — I was co-founder and CTO of Leyoda (Oct 2025 – Oct 2026), an AI company whose models ran entirely on its own hardware. Spring Boot + Next.js + Python platform, OIDC identity server, and a CRM with an AI assistant working over tools and MCP.
 
 ---
 
 ## How I Work
 
-I don't just write code. I build execution infrastructure that makes everything I do from that point forward faster, cheaper, and operable from anywhere.
+Coding agents write almost all of my code. I decide what the system should do, split the work and judge what comes back; the agents write the code, the rules and the tests.
 
-- **Phone-first development** — I operate full production systems from an iPhone through infrastructure I designed for mobile-first AI-assisted development
-- **Self-healing automation** — deterministic hooks enforce safety at zero cost, memory self-corrects against source files, context survives compaction
-- **AI agent infrastructure** — not using AI tools in default mode. Building the layer underneath them. [crag](https://github.com/WhitehatD/crag) is the first piece I've open-sourced
-
-The result: park bench, phone, full project context loaded in under a minute, AI writes and tests code, I approve from a push notification, ships to production.
+- **One set of rules for every agent** — kept in sync by crag and enforced in CI, so Claude Code, Cursor and Codex all work to the same standard
+- **Agents don't grade their own work** — tests and browser checks run in a second agent that can't change code
+- **Guardrails in hooks** — destructive commands are blocked before they run; memory of past decisions and mistakes carries across sessions
 
 ---
 
@@ -45,18 +43,18 @@ The result: park bench, phone, full project context loaded in under a minute, AI
 <p>
   <img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-1.90-DEA584?style=for-the-badge&logo=rust&logoColor=black" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cilium-eBPF-F8C517?style=for-the-badge&logo=cilium&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
   <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
@@ -64,7 +62,6 @@ The result: park bench, phone, full project context loaded in under a minute, AI
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
 </p>
 
 ---
@@ -73,14 +70,4 @@ The result: park bench, phone, full project context loaded in under a minute, AI
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=WhitehatD&theme=github-dark&hide_border=true&bg_color=0d1117&color=5d057a&line=5d057a&point=ffffff&area=true&area_color=5d057a30" width="98%" />
 </p>
 
----
-
-## Philosophy
-
-Systems over effort. Iteration speed over raw output. Ship real things, not demos.
-
-Every project I touch gets production-grade infrastructure from day one — quality gates, security review, automated deployment, persistent memory. Not because I'm cautious, but because the infrastructure costs 20 minutes to set up and saves weeks over the project lifetime.
-
----
-
-<p align="center"><em>Something bigger is coming.</em></p>
+<p align="center">alex@ciocandco.com · <a href="https://ciocandco.com">ciocandco.com</a></p>
